@@ -1,0 +1,14 @@
+{
+  // Install python extension"
+  "extensions":["ms-python.python"],
+  
+  //Use Python 3.5 environment by defualt
+  "settings": {
+    "python.pythonPath": "/usr/bin/python3",
+    "window.autoDetectColorScheme": false,
+    "workbench.colorTheme": "Default Light+",
+  },
+
+  // Run Bash script to install Python packages
+  "postCreateCommand": "sudo bash ./.devcontainer/setup.sh > ~/post-create.log"
+}
