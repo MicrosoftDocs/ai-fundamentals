@@ -1,14 +1,3 @@
----
-page_type: sample
-languages:
-- python
-- c-sharp
-products:
-- cognitive services
-description: "Sample code for use in Microsoft learn hands-on exercises"
-urlFragment: "https://github.com/MicrosoftDocs/ai-fundamentals"
----
-
 # Microsoft Learn AI Fundamentals Labs
 
 The sample code in this repository is for use in hands-on exercises in Microsoft Learn modules.
