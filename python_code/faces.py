@@ -26,13 +26,45 @@ def show_faces(image_path, detected_faces, show_id=False):
     plt.axis('off')
     plt.imshow(img)
 
-def print_face_attributes(detected_faces):
+def show_face_attributes(image_path, detected_faces):
+    import matplotlib.pyplot as plt
+    from PIL import Image, ImageDraw
+
+    # Open an image
+    img = Image.open(image_path)
+
+    # Create a figure to display the results
+    fig = plt.figure(figsize=(8, 8))
+
     if detected_faces:
+        # If there are faces, how many?
+        num_faces = len(detected_faces)
+        prediction = ' (' + str(num_faces) + ' faces detected)'
+        # Draw a rectangle around each detected face
         for face in detected_faces:
-            print('Face ID:', face.face_id)
+            r = face.face_rectangle
+            bounding_box = ((r.left, r.top), (r.left + r.width, r.top + r.height))
+            draw = ImageDraw.Draw(img)
+            draw.rectangle(bounding_box, outline='magenta', width=5)
+
+            # Annotate with face attributes (only gender, age, and emotion are used in this sample)
             detected_attributes = face.face_attributes.as_dict()
-            for attribute in detected_attributes:
-                print('-{}:{}'.format(attribute, detected_attributes[attribute]))
+            gender = 'gender unknown' if 'gender' not in detected_attributes.keys() else detected_attributes['gender']
+            age = 'age unknown' if 'age' not in detected_attributes.keys() else int(detected_attributes['age'])
+            annotations = '{} ({})'.format(gender, age)
+            txt_lines = 1
+            if 'emotion' in detected_attributes.keys():
+                for emotion_name in detected_attributes['emotion']:
+                    txt_lines += 1
+                    annotations += '\n - {}: {}'.format(emotion_name, detected_attributes['emotion'][emotion_name])
+            plt.annotate(annotations,((r.left + r.width), (r.top + r.height + (txt_lines * 12))), backgroundcolor='white')
+
+            # Plot the image
+            a = fig.add_subplot(1,1,1)
+            a.set_title(prediction)
+
+    plt.axis('off')
+    plt.imshow(img)
 
 def show_similar_faces(image_1_path, image_1_face, image_2_path, image_2_faces, similar_faces):
     import matplotlib.pyplot as plt
