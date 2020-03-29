@@ -19,12 +19,11 @@ The exercises are designed to be completed in Visual Studio Online. To complete 
     5. Wait for the environment to be created. This will open a browser-based instance of Visual Studio Code.
     6. Wait for a minute or so while the environment is set up for you. It might look like nothing is happening, but in the background we are installing some extensions that you will use in the labs. You'll see the following things happen:
         - The files in this repo will appear in the pane on the left.
-        - The color scheme will change to a light background with dark text.
         - After a few minutes (during which there's no apparent activity, but in the background we're setting up the environment for you), a new file named **REFRESH NOW** will appear in the pane on the left. This is your indication that everything has been installed.
     7. After the **REFRESH NOW** file has appeared and the color scheme has changed, refresh the web page to ensure all of the extensions are loaded and you're ready to start.
     8. Note the *.ipynb* files in the **Explorer** pane - these contain the lab exercises.
 
-> **Tip**: you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
+> **Tip**: you can change the color scheme in Visual Studio Online if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
 
 ## Contributing
 
