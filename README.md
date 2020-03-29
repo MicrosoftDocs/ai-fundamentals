@@ -26,7 +26,6 @@ The exercises are designed to be completed in Visual Studio Online. To complete 
 
 > **Tip**: you can change the color scheme back to a dark background if you prefer - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**.
 
-
 ## Contributing
 
 At this time, we are not accepting contributions to this repository. If you encounter an issue with the exercises, please [report it](https://docs.microsoft.com/learn/support/troubleshooting#report-feedback).
