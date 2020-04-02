@@ -13,8 +13,8 @@ namespace text_analytics
 {
     class Program
     {
-        private static readonly string key = "50de79fcdc0d44bcaaee82326c50a9bd";
-        private static readonly string endpoint = "https://westus2.api.cognitive.microsoft.com/";
+        private static readonly string key = "YOUR_COG_KEY";
+        private static readonly string endpoint = "YOUR_COG_ENDPOINT";
 
         private static string[] reviews ={"../../data/text/reviews/review1.txt",
         "../../data/text/reviews/review2.txt",

@@ -11,9 +11,9 @@ namespace image_anaylsis
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint.
-        static string subscriptionKey = "50de79fcdc0d44bcaaee82326c50a9bd";
+        static string subscriptionKey = "YOUR_COG_KEY";
 
-        static string endpoint = "https://westus2.api.cognitive.microsoft.com/";
+        static string endpoint = "YOUR_COG_ENDPOINT";
 
         // the Analyze method endpoint
         static string uriBase = endpoint + "vision/v2.1/analyze";
