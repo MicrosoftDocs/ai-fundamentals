@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace image_anaylsis
+namespace image_analysis
 {
     static class Program
     {
