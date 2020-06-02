@@ -15,7 +15,7 @@ Visual Studio Onlineの環境を設定するには:
 1. 新しいブラウザタブで[https://online.visualstudio.com/environments/new](https://online.visualstudio.com/environments/new?name=ai-fundamentals&repo=MicrosoftDocs/ai-fundamentals)を開き、プロンプトが表示されたら、Azureサブスクリプションに関連付けられたMicrosoftアカウントを使用してサインインします。
 2. Visual Studio Online の課金プランをまだお持ちでない場合は、プランを作成します。次に、次の設定で環境を作成します。:
     - **Environment Name**: *A name for your environment - for example, **ai-fundamentals**.*
-    - **Git Repository**: MicrosoftDocs/ai-fundamentals
+    - **Git Repository**: rytokuga/ai-fundamentals
     - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
     - **Suspend idle environment after**: 30 minutes
 3. 環境が作成されるのを待ちます。これには1分程度の時間がかかります。
