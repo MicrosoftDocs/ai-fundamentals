@@ -1,29 +1,31 @@
 # Microsoft Learn AI Fundamentals Labs
 
-The sample code in this repository is for use in hands-on exercises in Microsoft Learn modules.
+このリポジトリのサンプルコードは、Microsoft Learn モジュールのハンズオン演習で使用します。
 
-## Setup
 
-The exercises are designed to be completed in Visual Studio Online. To complete the labs, you'll need the following:
+## セットアップ
 
-- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a>.
-- A Visual Studio Online environment based on this repo. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises.
+演習問題は、Visual Studio Online で完了するように設計されています。ラボを完了するには、次のものが必要です。
 
-To set up a Visual Studio Online environment:
+- Microsoft Azure のサブスクリプション。まだお持ちでない場合は、<a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a>で無料トライアルにサインアップすることができます。
+- このレポをベースにしたVisual Studio Online環境。これは Visual Studio Code のホストされたインスタンスを提供し、ラボの演習用のノートブックを実行することができます。
 
-1. Open [https://online.visualstudio.com/environments/new](https://online.visualstudio.com/environments/new?name=ai-fundamentals&repo=MicrosoftDocs/ai-fundamentals) in a new browser tab; and if prompted, sign in using the Microsoft account associated with your Azure subscription.
-2. If you don't already have a Visual Studio Online billing plan, create one. Then create an environment with the following settings:
+Visual Studio Onlineの環境を設定するには:
+
+1. 新しいブラウザタブで[https://online.visualstudio.com/environments/new](https://online.visualstudio.com/environments/new?name=ai-fundamentals&repo=MicrosoftDocs/ai-fundamentals)を開き、プロンプトが表示されたら、Azureサブスクリプションに関連付けられたMicrosoftアカウントを使用してサインインします。
+2. Visual Studio Online の課金プランをまだお持ちでない場合は、プランを作成します。次に、次の設定で環境を作成します。:
     - **Environment Name**: *A name for your environment - for example, **ai-fundamentals**.*
     - **Git Repository**: MicrosoftDocs/ai-fundamentals
     - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
     - **Suspend idle environment after**: 30 minutes
-3. Wait for the environment to be created. This will take around a minute.
-4. Wait for another minute or so while the environment is set up for you. It might look like nothing is happening, but in the background we're installing some components you'll need for the exercise. You'll see the following things happen:
-    - A list of notebook (.ipynb) files will appear in the pane on the left.
-    - After a few minutes, a file named **z REFRESH NOW!** will appear at the bottom of the list of files. This is your indication that everything has been installed.
-5. After the **z REFRESH NOW!** file has appeared, ***refresh the web page*** to ensure all of the required extensions are loaded and set the color scheme to a light background. Then you're ready to start.
-6. After you have refreshed the web page, you can delete the **z REFRESH NOW** file if you want to. You can also change the color scheme to suit your preference - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**
+3. 環境が作成されるのを待ちます。これには1分程度の時間がかかります。
+4. 環境がセットアップされるまで、もう1分ほど待ってください。何も起きていないように見えるかもしれませんが、バックグラウンドでは演習に必要なコンポーネントをインストールしています。以下のようなことが起こるのがわかるでしょう。
+    - 左側のペインにノートブック(.ipynb)ファイルのリストが表示されます。
+    - 数分後、**z REFRESH NOW!**という名前のファイルがファイルリストの一番下に表示されます。これはすべてがインストールされたことを示しています。
+
+5. **z REFRESH NOW!**ファイルが表示された後、***Webページをリフレッシュ***して、必要な拡張機能がすべて読み込まれていることを確認し、配色を明るい背景に設定します。これで開始の準備ができました。
+6. Webページをリフレッシュした後、**z REFRESH NOW**ファイルを削除することができます。左下の **&#9881;** アイコンをクリックして、新しい**カラーテーマ**を選択するだけで、お好みに合わせて配色を変更することができます。
 
 ## Contributing
 
-At this time, we are not accepting contributions to this repository. If you encounter an issue with the exercises, please [report it](https://docs.microsoft.com/learn/support/troubleshooting#report-feedback).
+現時点では、このリポジトリへの投稿は受け付けていません。演習で問題が発生した場合は、[report it](https://docs.microsoft.com/learn/support/troubleshooting#report-feedback)をお願いします。
