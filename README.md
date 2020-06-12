@@ -5,15 +5,15 @@
 
 ## セットアップ
 
-演習問題は、Visual Studio Online で完了するように設計されています。ラボを完了するには、次のものが必要です。
+演習問題は、Visual Studio Codespaces で完了するように設計されています。ラボを完了するには、次のものが必要です。
 
 - Microsoft Azure のサブスクリプション。まだお持ちでない場合は、<a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a>で無料トライアルにサインアップすることができます。
-- このレポをベースにしたVisual Studio Online環境。これは Visual Studio Code のホストされたインスタンスを提供し、ラボの演習用のノートブックを実行することができます。
+- このレポをベースにしたVisual Studio Codespaces環境。これは Visual Studio Code のホストされたインスタンスを提供し、ラボの演習用のノートブックを実行することができます。
 
-Visual Studio Onlineの環境を設定するには:
+Visual Studio Codespacesの環境を設定するには:
 
 1. 新しいブラウザタブで[https://online.visualstudio.com/environments/new](https://online.visualstudio.com/environments/new?name=ai-fundamentals&repo=MicrosoftDocs/ai-fundamentals)を開き、プロンプトが表示されたら、Azureサブスクリプションに関連付けられたMicrosoftアカウントを使用してサインインします。
-2. Visual Studio Online の課金プランをまだお持ちでない場合は、プランを作成します。次に、次の設定で環境を作成します。:
+2. Visual Studio Codespaces の課金プランをまだお持ちでない場合は、プランを作成します。次に、次の設定で環境を作成します。:
     - **Environment Name**: *A name for your environment - for example, **ai-fundamentals**.*
     - **Git Repository**: rytokuga/ai-fundamentals
     - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
