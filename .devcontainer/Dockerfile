@@ -43,6 +43,7 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install azure-cognitiveservices-vision-face \
     && pip --disable-pip-version-check --no-cache-dir install azure-cognitiveservices-language-textanalytics \
     && pip --disable-pip-version-check --no-cache-dir install azure.cognitiveservices.speech \
+    && pip --disable-pip-version-check --no-cache-dir install azure_ai_formrecognizer \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
     && groupadd --gid $USER_GID $USERNAME \
