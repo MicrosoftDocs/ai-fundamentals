@@ -6,7 +6,7 @@
   // Install python extension"
   "extensions":["ms-python.python"],
   
-  //Use Python 3.5 environment by defualt
+  //Use Python 3.7 environment by defualt
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
     "python.pythonPath": "/opt/conda/bin/python",
@@ -18,6 +18,6 @@
     "workbench.colorTheme": "Default Light+"
   },
 
-  // Run Bash script to install Python packages
-  "postCreateCommand": "sudo bash ./.devcontainer/setup.sh > ~/post-create.log"
+  // Run Bash script to finish
+  "postCreateCommand": "sudo bash ./.devcontainer/setup.sh"
 }
