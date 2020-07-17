@@ -20,9 +20,7 @@ To set up a Visual Studio Codespace:
 3. Wait for the codespace to be created. This will take around 3 minutes. You'll see the following things happen:
     - A script will initialize and configure your codespace.
     - A list of notebook (.ipynb) files will appear in the pane on the left.
-    - After a few minutes, a file named **z REFRESH NOW!** will appear at the bottom of the list of files. This is your indication that everything has been installed.
-5. After the **z REFRESH NOW!** file has appeared, ***refresh the web page*** to ensure all of the required extensions are loaded and set the color scheme to a light background. Then you're ready to start.
-6. After you have refreshed the web page, you can close the **Welcome** panes and delete the **z REFRESH NOW** file if you want to. You can also change the color scheme to suit your preference - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**. A light color theme is recommended to make it easier to read the Python code in the notebooks.
+4. After setup is complete, you can close the **Welcome** and **Creation log** panes. You can also change the color scheme to suit your preference - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**. A light color theme is recommended to make it easier to read the Python code in the notebooks.
 
 ## Contributing
 
