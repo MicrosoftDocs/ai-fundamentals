@@ -13,9 +13,7 @@
     "terminal.integrated.inheritEnv": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "/opt/conda/bin/pylint",
-    "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Default Light+"
+    "python.linting.pylintPath": "/opt/conda/bin/pylint"
   },
 
   // Run Bash script to finish
