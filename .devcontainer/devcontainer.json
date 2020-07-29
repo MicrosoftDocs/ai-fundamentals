@@ -13,7 +13,8 @@
     "terminal.integrated.inheritEnv": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "/opt/conda/bin/pylint"
+    "python.linting.pylintPath": "/opt/conda/bin/pylint",
+    "python.dataScience.alwaysTrustNotebooks":true
   },
 
   // Run Bash script to finish
