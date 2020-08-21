@@ -52,7 +52,7 @@ def show_image_analysis(image_path, analysis):
             bounding_box = ((r.left, r.top), (r.left + r.width, r.top + r.height))
             draw = ImageDraw.Draw(img)
             draw.rectangle(bounding_box, outline='lightgreen', width=5)
-            annotation = '{} ({})'.format(face.gender.capitalize(), face.age)
+            annotation = 'Person aged approxilately {}'.format(face.age)
             plt.annotate(annotation,(r.left, r.top), backgroundcolor='lightgreen')
 
     plt.axis('off')
