@@ -47,11 +47,10 @@ def show_face_attributes(image_path, detected_faces):
             draw = ImageDraw.Draw(img)
             draw.rectangle(bounding_box, outline='magenta', width=5)
 
-            # Annotate with face attributes (only gender, age, and emotion are used in this sample)
+            # Annotate with face attributes (only age and emotion are used in this sample)
             detected_attributes = face.face_attributes.as_dict()
-            gender = 'gender unknown' if 'gender' not in detected_attributes.keys() else detected_attributes['gender']
             age = 'age unknown' if 'age' not in detected_attributes.keys() else int(detected_attributes['age'])
-            annotations = '{} ({})'.format(gender, age)
+            annotations = 'Person aged approximately {}'.format(age)
             txt_lines = 1
             if 'emotion' in detected_attributes.keys():
                 for emotion_name in detected_attributes['emotion']:
