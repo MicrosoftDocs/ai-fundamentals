@@ -6,7 +6,7 @@ def show_faces(image_path, detected_faces, show_id=False):
     img = Image.open(image_path)
 
     # Create a figure to display the results
-    fig = plt.figure(figsize=(8, 8))
+    fig = plt.figure(figsize=(8, 6))
 
     if detected_faces:
         # If there are faces, how many?
@@ -20,8 +20,8 @@ def show_faces(image_path, detected_faces, show_id=False):
             draw.rectangle(bounding_box, outline='magenta', width=5)
             if show_id:
                 plt.annotate(face.face_id,(r.left, r.top + r.height + 15), backgroundcolor='white')
-            a = fig.add_subplot(1,1,1)
-            a.set_title(prediction)
+        #a = fig.add_subplot(1,1,1)
+        fig.suptitle(prediction)
 
     plt.axis('off')
     plt.imshow(img)
@@ -34,7 +34,7 @@ def show_face_attributes(image_path, detected_faces):
     img = Image.open(image_path)
 
     # Create a figure to display the results
-    fig = plt.figure(figsize=(8, 8))
+    fig = plt.figure(figsize=(8, 6))
 
     if detected_faces:
         # If there are faces, how many?
@@ -58,9 +58,9 @@ def show_face_attributes(image_path, detected_faces):
                     annotations += '\n - {}: {}'.format(emotion_name, detected_attributes['emotion'][emotion_name])
             plt.annotate(annotations,((r.left + r.width), (r.top + r.height + (txt_lines * 12))), backgroundcolor='white')
 
-            # Plot the image
-            a = fig.add_subplot(1,1,1)
-            a.set_title(prediction)
+        # Plot the image
+        #a = fig.add_subplot(1,1,1)
+        fig.suptitle(prediction)
 
     plt.axis('off')
     plt.imshow(img)
@@ -70,7 +70,7 @@ def show_similar_faces(image_1_path, image_1_face, image_2_path, image_2_faces, 
     from PIL import Image, ImageDraw
 
     # Create a figure to display the results
-    fig = plt.figure(figsize=(16, 8))
+    fig = plt.figure(figsize=(16, 6))
 
     # Show face 1
     img1 = Image.open(image_1_path)
@@ -109,7 +109,7 @@ def show_recognized_faces(image_path, detected_faces, recognized_face_names):
     img = Image.open(image_path)
 
     # Create a figure to display the results
-    fig = plt.figure(figsize=(8, 8))
+    fig = plt.figure(figsize=(8, 6))
 
     if detected_faces:
         # If there are faces, how many?
@@ -124,8 +124,8 @@ def show_recognized_faces(image_path, detected_faces, recognized_face_names):
             if face.face_id in recognized_face_names:
                 plt.annotate(recognized_face_names[face.face_id],
                              (r.left, r.top + r.height + 15), backgroundcolor='white')
-            a = fig.add_subplot(1,1,1)
-            a.set_title(caption)
+        #a = fig.add_subplot(1,1,1)
+        fig.suptitle(caption)
 
     plt.axis('off')
     plt.imshow(img)
