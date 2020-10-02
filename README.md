@@ -1,6 +1,6 @@
 # Microsoft Learn AI Fundamentals Labs
 
-このリポジトリのサンプルコードは、Microsoft Learn **AI Fundamentals**(https://docs.microsoft.com/learn/certifications/azure-ai-fundamentals)資格に関連する各ラーニングパスのハンズオン演習で使用します。
+このリポジトリのサンプルコードは、Microsoft Learn [AI Fundamentals](https://docs.microsoft.com/learn/certifications/azure-ai-fundamentals)資格に関連する各ラーニングパスのハンズオン演習で使用します。
 
 
 ## セットアップ
@@ -69,10 +69,10 @@ Azure Machine Learning Studio で、左上にある **☰** アイコンを切�
  - **Compute Instances**(コンピューティング インスタンス) タブで、ご自分のコンピューティング インスタンスを選択してから、**停止** ボタンを使用してそれを停止します。
 
 ## MS Learnで演習セットアップを行う場合
-MS Learnの各モジュールの**演習部分**(https://docs.microsoft.com/ja-jp/learn/modules/analyze-images-computer-vision/3-analyze-images)には、同様のセットアップ手順があります。
-ただし、使用すべきGithub repoが異なりますので、Git cloneを行う部分は**代わりに****このコマンドを使用して現在のRepoをクローンしてください**(#gitclone))。
+MS Learnの各モジュールの[演習部分](https://docs.microsoft.com/ja-jp/learn/modules/analyze-images-computer-vision/3-analyze-images)には、同様のセットアップ手順があります。
+ただし、使用すべきGithub repoが異なりますので、Git cloneを行う部分は**代わりに**[このコマンド](#gitclone)を使用して現在のRepoをクローンしてください。
 
 
 ## Contributing
 
-現時点では、このリポジトリへの投稿は受け付けていません。演習で問題が発生した場合は、**report it**(https://docs.microsoft.com/learn/support/troubleshooting#report-feedback)をお願いします。
+現時点では、このリポジトリへの投稿は受け付けていません。演習で問題が発生した場合は、[report it](https://docs.microsoft.com/learn/support/troubleshooting#report-feedback)をお願いします。
