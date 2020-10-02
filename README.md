@@ -8,7 +8,7 @@
 演習問題は、Azure Machine Learning ワークスペースのNotebook で完了するように設計されています。ラボを完了するには、次のものが必要です。
 
 - Microsoft Azure のサブスクリプション。まだお持ちでない場合は、<a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a>で無料トライアルにサインアップすることができます。
-- このレポをベースにした環境Azure Machine Learning ワークスペース Notebook。この環境の中で、直接にラボの演習用のノートブックを実行することができます。
+- このレポをベースにしたAzure Machine Learning ワークスペース環境。この環境の中で、直接にラボの演習用のノートブックを実行することができます。
 
 Azure Machine Learning ワークスペース の環境を設定するには：
 
@@ -16,15 +16,15 @@ Azure Machine Learning ワークスペース の環境を設定するには：
 
 ご自分の Azure サブスクリプションに既に Azure Machine Learning ワークスペースがある場合は、新しいブラウザー タブで Azure Machine Learning Studio に移動し、Microsoft アカウントを使用して Azure Machine Learning Studio にサインインします。
 それ以外の場合は、次の手順に従って新しいワークスペースを作成します。
-     - ご利用の Azure サブスクリプションに関連付けられている Microsoft アカウントを使用して、Azure portal  にサインインします。
-     - **+ リソースの作成** を選択し、Machine Learning を検索し、次の設定を使用して新しい Machine Learning リソースを作成します。
-     - **ワークスペース名**: 任意の一意の名前を入力します
-     - **サブスクリプション**: お使いの Azure サブスクリプション
-     - **リソース グループ**: 一意の名前で新しいリソース グループを作成します
-     - **場所**: 利用可能な場所を選択します
-     - ワークスペース リソースが作成されるまで待ちます (数分かかる場合があります)。 
-     - 次に、ポータルでそれに移動し、ワークスペースの **概要** ページで Azure Machine Learning Studio を起動 (または新しいブラウザー タブを開いて https://ml.azure.com  に移動) し、ご自分の Microsoft アカウントを使用して Azure Machine Learning Studio にサインインします。
-Azure Machine Learning Studio で、左上にある **☰** アイコンを切り替えると、インターフェイス内にさまざまなページが表示されます。 これらのページを使用して、ワークスペース内のリソースを管理できます。
+ - ご利用の Azure サブスクリプションに関連付けられている Microsoft アカウントを使用して、Azure portal  にサインインします。
+   - **+ リソースの作成** を選択し、Machine Learning を検索し、次の設定を使用して新しい Machine Learning リソースを作成します。
+   - **ワークスペース名**: 任意の一意の名前を入力します
+   - **サブスクリプション**: お使いの Azure サブスクリプション
+   - **リソース グループ**: 一意の名前で新しいリソース グループを作成します
+   - **場所**: 利用可能な場所を選択します
+   - ワークスペース リソースが作成されるまで待ちます (数分かかる場合があります)。 
+ - 次に、ポータルでそれに移動し、ワークスペースの **概要** ページで Azure Machine Learning Studio を起動 (または新しいブラウザー タブを開いて [https://ml.azure.com](https://ml.azure.com) に移動) し、ご自分の Microsoft アカウントを使用して Azure Machine Learning Studio にサインインします。
+ - Azure Machine Learning Studio で、左上にある **☰** アイコンを切り替えると、インターフェイス内にさまざまなページが表示されます。 これらのページを使用して、ワークスペース内のリソースを管理できます。
 
 ### 2. コンピューティング インスタンスを作成する
 
