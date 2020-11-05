@@ -1,7 +1,8 @@
 # AI-900 Labs
 ## 03 - Lab 03 Instructions
-In this lab we will be using Custom Vision in Azure to identify real-world items based on images.
+In this lab we will be using the Custom Vision service in Azure to identify real-world items based on images.
 
 ### Tasks
-1.	Go to the Microsoft Learn module at https://aka.ms/learn-image-classification
-2.	Follow the instructions in **"Exercise – Create an image classification solution"** 
+1.	Start Visual Studio Code and open the ai-fundamentals project.
+2.  Open the **01b - Image Classification.ipynb** notebook.
+3.  Follow the instructions in the notebook to complete the lab.
